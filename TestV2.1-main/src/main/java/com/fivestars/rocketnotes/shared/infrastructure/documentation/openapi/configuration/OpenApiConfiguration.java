@@ -12,9 +12,9 @@ public class OpenApiConfiguration {
     @Bean
     public OpenAPI learningPlatformOpenApi(){
         return new OpenAPI()
-                .info(new Info().title("RocketNotes Platform API")
+                .info(new Info().title("SmartCampus Platform API")
                         .description(
-                                "Five Stars  application REST API documentation.")
+                                "Lumina  application REST API documentation.")
                         .version("v1.0.0")
                         .license(new License().name("Apache 2.0").url("https://springdoc.org")))
                 .externalDocs(new ExternalDocumentation()
